@@ -2,9 +2,7 @@ package com.android.uraall.dependencyinjectiondemo;
 
 import javax.inject.Inject;
 
-class CarBattery {
+public interface CarBattery {
 
-    @Inject
-    public CarBattery() {
-    }
+    void logBatteryType();
 }
